@@ -14,7 +14,7 @@ const CommentForm = ({launchId}) => {
   const [Comment, setComment] = useState('')
 
  useEffect(() => {
-  fetch(`http://localhost:5001/comments/${launchId}`).then(res => res.json()).then(data => setCommentData(data))
+  fetch(`https://abundant-befitting-pantry.glitch.me/comments/${launchId}`).then(res => res.json()).then(data => setCommentData(data))
 
  }, []);
 
@@ -37,7 +37,7 @@ const handleSubmit = () => {
   }else{
   CommentData.commentList.push(newComment)
 
-  axios.put(`http://localhost:5001/comments/${launchId}`, CommentData)
+  axios.put(`https://abundant-befitting-pantry.glitch.me/comments/${launchId}`, CommentData)
   }
 
 }
