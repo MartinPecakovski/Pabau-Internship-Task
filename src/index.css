@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: "Roboto Mono", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: -1px;
+    background-image: url("https://wallpaperaccess.com/full/39625.jpg");
+    background-size: cover;
+    height: 91.5vh;
+    color: #fff;
+  }
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+    text-decoration: none;
+    color: #000
+}
+
+* {
+    box-sizing: border-box;
+}
