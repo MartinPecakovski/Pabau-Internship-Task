@@ -28,7 +28,6 @@ const LaunchDetailsItem = ({ launchId }) => {
         sx={{
           p: 2,
           margin: 'auto',
-          height: '100vh',
         }}
       >
         {loading ? (
